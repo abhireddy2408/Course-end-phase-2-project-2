@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="pizzahut001">
+		<parameter name="location" value="Bangur Nagar Metro" />
+        <parameter name="name" value="aaname" />
+        <parameter name="mobile" value="9123456789" />
+        <parameter name="email" value="aan@gmail.com" />
+        <parameter name="addressdetails" value="aaname" />
+        <parameter name="couponcode" value="12345" />
+    <classes>
+      <class name="tests.PizzaorderTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

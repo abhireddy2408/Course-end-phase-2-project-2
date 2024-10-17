@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name="pizzahut001(failed)" verbose="0">
+    <parameter name="addressdetails" value="aaname"/>
+    <parameter name="name" value="aaname"/>
+    <parameter name="mobile" value="9123456789"/>
+    <parameter name="location" value="Bangur Nagar Metro"/>
+    <parameter name="email" value="aan@gmail.com"/>
+    <parameter name="couponcode" value="12345"/>
+    <classes>
+      <class name="tests.PizzaorderTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="pizzaOrder" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- tests.PizzaorderTest -->
+    </classes>
+  </test> <!-- pizzahut001(failed) -->
+</suite> <!-- Failed suite [Suite] -->

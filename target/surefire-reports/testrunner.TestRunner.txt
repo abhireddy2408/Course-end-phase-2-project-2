@@ -1,0 +1,9 @@
+-------------------------------------------------------------------------------
+Test set: testrunner.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.166 s <<< FAILURE! -- in testrunner.TestRunner
+Validate Pizzahut pizza order flow.Validate Pizzahut pizza order flow -- Time elapsed: 0.064 s <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "com.aventstack.extentreports.ExtentTest.log(com.aventstack.extentreports.Status, String)" because "this.extentTest" is null
+	at stepdefs.SearchPizza.user_launch_pizzahut_application_with(SearchPizza.java:44)
+	at ✽.User launch Pizzahut application with "https://www.pizzahut.co.in/"(file:///Users/abhilashreddybanda/Desktop/QAfox/pizzahut-automation/src/test/java/features/SearchPizza.feature:5)
+
